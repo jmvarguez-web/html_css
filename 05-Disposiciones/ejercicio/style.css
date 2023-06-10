@@ -1,0 +1,12 @@
+#galeria {
+  width: 80vw;
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+#galeria img {
+  width: 300px;
+}
