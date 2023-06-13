@@ -1,0 +1,20 @@
+.button-ejemplo {
+  width: 100vw;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 0 5px #351f1f15;
+}
+
+.button-ejemplo::before {
+  content: "Pasa por encima";
+}
+
+.button-ejemplo:hover {
+  color: white;
+  background-color: green;
+}
+
+.button-ejemplo:hover::before {
+  content: "¡Hecho!";
+}
